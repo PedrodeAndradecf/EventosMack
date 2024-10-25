@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.footer {
+  background-color: #0A075F; 
+  color: #fff;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.footerLogo, .footerLinks > div {
+  flex: 1;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer, .footerLinks h3 {
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.logoText {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footerText, .footerLinks li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footerLinks {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLinks ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .footerLogo, .footerLinks, .footerLinks > div {
+    flex: 1 1 100%;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .logoContainer, .footerLinks h3 {
+    height: auto;
+    margin-top: 1rem;
+  }
+}

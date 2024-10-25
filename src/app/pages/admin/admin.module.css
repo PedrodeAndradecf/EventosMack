@@ -1,0 +1,138 @@
+.adminContainer {
+  width: 100%;
+  padding: 40px 20px;
+  text-align: left;
+  color: #333;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #D4D6E3;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0A075F;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form input, .form textarea {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submitButton, .cancelButton {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancelButton:hover {
+  background-color: #bd2130;
+}
+
+.eventosList {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.eventoItem {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px; /* Altura fixa para manter consistência */
+}
+
+.eventoItem h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  color: #0A075F;
+}
+
+.eventoItem p {
+  margin: 3px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.editButton, .deleteButton {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editButton {
+  background-color: #ffc107;
+  color: #333;
+  margin-right: 5px;
+}
+
+.editButton:hover {
+  background-color: #e0a800;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  margin-left: 5px;
+}
+
+.deleteButton:hover {
+  background-color: #bd2130;
+}

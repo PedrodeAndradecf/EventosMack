@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1F1C6C;
+  font-family: 'Roboto', sans-serif;
+}
+
+.eventLinkLogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+.eventLinkLogo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.cadastroContainer {
+  background-color: white;
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 4rem auto;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #1F1C6C;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.tabButton {
+  background-color: transparent;
+  border: none;
+  color: #666;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tabButton.active {
+  color: #1F1C6C;
+  border-bottom: 2px solid #1F1C6C;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.formSection {
+  flex: 1;
+}
+
+.sectionTitle {
+  color: #1F1C6C;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup input,
+.inputGroup select {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus {
+  outline: none;
+  border-bottom-color: #1F1C6C;
+}
+
+.cadastrarButton {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: #1F1C6C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cadastrarButton:hover {
+  background-color: #161450;
+}
+
+.footerText {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.footerText p {
+  margin-bottom: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.returnNav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.returnLink {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.returnLink:hover {
+  background-color: white;
+  color: #1F1C6C;
+}
+
+.inputGroupRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroupRow input[type="text"] {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.checkboxContainer input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.checkboxContainer label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.inputWithCheckbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputWithCheckbox input[type="text"] {
+  flex: 1;
+  margin-right: 1rem;
+}

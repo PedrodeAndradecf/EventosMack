@@ -1,0 +1,79 @@
+.navbar {
+  background-color: #1f1c6c; 
+  color: white; 
+  padding: 1rem; 
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 0.75rem;
+}
+
+.navbarGroup {
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center; 
+  width: 100%;
+  height: 41px; 
+  font-size: 1rem; 
+  color: lightgray; 
+  font-family: 'DM Sans', sans-serif; 
+  padding-right: 20px; 
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.loginButton {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.loginPage {
+  background-color: white;
+}
+
+.loginPage .logoText {
+  color: #1F1C6C;
+}
+
+.loginPage .navLink {
+  color: #1F1C6C;
+}
+
+.loginPage .loginButton {
+  background-color: #1F1C6C;
+  color: white;
+}
+
+.loginPage .loginButton:hover {
+  background-color: #15134d;
+}
